@@ -1,0 +1,43 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: Helvetica, sans-serif;
+  font-weight: 300;
+  color: white;
+  /* border: 1px solid black; */
+  color: black;
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.year {
+  height: 80dvh;
+  position: sticky;
+  /* top: 0px; */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 50dvw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+img {
+  /* width: 100%;
+  height: 100%; */
+}
+
+.imageContainer {
+  /* width: 100dvw;
+  height: 100%; */
+}
+
+h1 {
+  font-size: 50px;
+}
